@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Personalización de una web</h1>
+
+
+    <div id="contenedor-bienvenida"></div>
+
+    <form id="formulario">
+
+        <label>Nombre de Usuario:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+        <br><br>
+
+        <label>Color de fondo:</label>
+        <input type="color" id="color" value="#ffffff">
+
+        <br><br>
+
+        <label>Tema visual:</label>
+
+        <select id="modo">
+            <option value="claro">Modo Claro</option>
+            <option value="oscuro">Modo Oscuro</option>
+        </select>
+
+        <br><br>
+
+        <button type="button" id="guardar">
+            Guardar Preferencias
+        </button>
+
+        <button type="button" id="restablecer">
+            Restablecer Interfaz
+        </button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

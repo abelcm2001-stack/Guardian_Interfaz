@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: black;
+    padding: 30px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+.modo-claro {
+    color: black;
+}
+
+
+
+.modo-oscuro {
+    background-color: #222222;
+    color: white;
+}
+
+
+
+.modo-oscuro form {
+    background-color: #444444;
+}
