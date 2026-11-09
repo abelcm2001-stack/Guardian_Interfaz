@@ -5,31 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Guardian Interfaz</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Personalización de una web</h1>
-
+    <h1>Personalización de la web</h1>
 
     <div id="contenedor-bienvenida"></div>
 
     <form id="formulario">
 
-        <label>Nombre de Usuario:</label>
-        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        <label for="nombre">Nombre de Usuario:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
 
         <br><br>
 
-        <label>Color de fondo:</label>
+        <label for="color">Color de fondo:</label>
         <input type="color" id="color" value="#ffffff">
 
         <br><br>
 
-        <label>Tema visual:</label>
+        <label for="modo">Tema visual:</label>
 
         <select id="modo">
             <option value="claro">Modo Claro</option>
@@ -38,7 +37,7 @@
 
         <br><br>
 
-        <button type="button" id="guardar">
+        <button type="submit" id="guardar">
             Guardar Preferencias
         </button>
 

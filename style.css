@@ -2,15 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    color: black;
+    color: #222222;
     padding: 30px;
 }
 
-
 h1 {
     text-align: center;
-}
-
+}   
 
 form {
     background-color: #eeeeee;
@@ -20,27 +18,20 @@ form {
     margin: auto;
 }
 
-
 button {
     padding: 10px;
     margin: 5px;
     cursor: pointer;
 }
 
-
-
 .modo-claro {
-    color: black;
+    color: #222222;
 }
-
-
 
 .modo-oscuro {
     background-color: #222222;
     color: white;
 }
-
-
 
 .modo-oscuro form {
     background-color: #444444;
